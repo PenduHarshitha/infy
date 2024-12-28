@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 import {ActivatedRoute, RouterLink} from "@angular/router";
 import Map from 'ol/Map';
@@ -5,7 +6,8 @@ import View from 'ol/View';
 import TileLayer from 'ol/layer/Tile';
 import XYZ from 'ol/source/XYZ';
 import {OSM} from "ol/source";
-import {OlaMaps} from '../../assets/OlaMapsWebSDKNew/OlaMapsWebSDK'
+import {OlaMaps} from '../../assets/OlaMapsWebSDKNew/OlaMapsWebSDK';
+
 @Component({
   selector: 'app-location',
   standalone: true,
